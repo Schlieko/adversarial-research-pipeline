@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.docx
+*.md
+!seed_prompt.md
+!README.md
