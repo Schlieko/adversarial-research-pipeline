@@ -12,39 +12,32 @@ An enterprise-grade, autonomous multi-agent research pipeline that orchestrates 
 ## 🛠️ Setup & Installation
 
 1. **Clone the repository:**
-```bash
-   git clone git clone https://github.com/yourusername/your-repo-name.git
+   ~~~bash
+   git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
-```
+   ~~~
 
 2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
+   ~~~bash
+   pip install -r requirements.txt
+   ~~~
 
 3. **Configure your environment:**
-Create a `.env` file in the root directory:
-```env
-GEMINI_API_KEY="your_native_google_key"
-OPENROUTER_API_KEY="your_openrouter_key"
-```
-
-
+   Create a `.env` file in the root directory:
+   ~~~env
+   GEMINI_API_KEY="your_native_google_key"
+   OPENROUTER_API_KEY="your_openrouter_key"
+   ~~~
 
 ## 🎯 How to Run
 
 1. **Phase 1 (The Debate):** Write your starting thesis in `seed_prompt.md`, drop any background reading into `prompt_files/`, and execute:
-```bash
-python debate.py
+   ~~~bash
+   python 01.0_debate.py
+   ~~~
+   *Select your model configuration using the interactive terminal menu.*
 
-```
-
-
-*Select your model configuration using the interactive terminal menu.*
 2. **Phase 2 (The Deep Research):** Review the debate log, then trigger the autonomous web agent to settle the score:
-```bash
-python step2_deep_research.py
-```
-
-💡 Pro-Tip: You can swap, add, or change the AI models used in this debate at any time by editing the models.json file in the root directory.
+   ~~~bash
+   python 02.0_deep_research.py
+   ~~~
