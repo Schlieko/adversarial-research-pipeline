@@ -9,6 +9,8 @@ An enterprise-grade, autonomous multi-agent research pipeline that orchestrates 
 3. **The BS Detector (Qwen 3.7 Max via OpenRouter):** Acts as a ruthless grounding agent, slicing through hypothetical hype and enforcing empirical reality.
 4. **The Researcher (Gemini Deep Research):** Takes the unresolved, high-tension conflicts from the debate and autonomously browses the web to generate a comprehensive 20-page `.docx` executive brief.
 
+> 💡 **Pro-Tip:** You can swap, add, or change the AI models used in this debate at any time by editing the `models.json` file in the root directory.
+
 ## 🛠️ Setup & Installation
 
 1. **Clone the repository:**
