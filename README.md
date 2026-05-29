@@ -12,10 +12,10 @@ An enterprise-grade, autonomous multi-agent research pipeline that orchestrates 
 ## 🛠️ Setup & Installation
 
 1. **Clone the repository:**
-   ```bash
+```bash
    git clone git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
-   ```
+```
 
 2. **Install dependencies:**
 ```bash
