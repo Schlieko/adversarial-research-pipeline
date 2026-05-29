@@ -14,15 +14,11 @@ An enterprise-grade, autonomous multi-agent research pipeline that orchestrates 
 1. **Clone the repository:**
    ```bash
    git clone git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-
-```
+   cd your-repo-name```
 
 2. **Install dependencies:**
 ```bash
-pip install -r requirements.txt
-
-```
+pip install -r requirements.txt```
 
 
 3. **Configure your environment:**
