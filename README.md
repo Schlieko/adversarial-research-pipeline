@@ -45,3 +45,6 @@ python debate.py
 2. **Phase 2 (The Deep Research):** Review the debate log, then trigger the autonomous web agent to settle the score:
 ```bash
 python step2_deep_research.py
+```
+
+💡 Pro-Tip: You can swap, add, or change the AI models used in this debate at any time by editing the models.json file in the root directory.
