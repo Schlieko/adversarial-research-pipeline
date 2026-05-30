@@ -6,11 +6,17 @@
     "junior": [
         "deepseek/deepseek-v4-pro", 
         "meta-llama/llama-3.3-70b-instruct:free",
-        "deepseek/deepseek-v4-flash:free"
+        "deepseek/deepseek-v4-flash:free",
+        "qwen/qwen3.7-max", 
+        "nvidia/nemotron-3-super-120b-a12b:free",
+        "moonshotai/kimi-k2.6:free"
     ],
     "grounding": [
         "qwen/qwen3.7-max", 
         "nvidia/nemotron-3-super-120b-a12b:free",
-        "moonshotai/kimi-k2.6:free"
+        "moonshotai/kimi-k2.6:free",
+        "deepseek/deepseek-v4-pro", 
+        "meta-llama/llama-3.3-70b-instruct:free",
+        "deepseek/deepseek-v4-flash:free"
     ]
 }
